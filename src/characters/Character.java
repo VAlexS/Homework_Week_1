@@ -1,4 +1,4 @@
-package personajes;
+package characters;
 
 import java.util.Random;
 
