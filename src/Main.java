@@ -17,7 +17,7 @@ public class Main {
             int battleCount = 1;
 
             // Crear personajes
-            System.out.println("Creando el Personaje 1:");
+            System.out.println("Creand el Personaje 1:");
             character1 = createCharacter(scanner, random);
 
             System.out.println("\nCreando el Personaje 2:");
