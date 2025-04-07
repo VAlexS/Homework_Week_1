@@ -15,10 +15,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Character warrior1 = new Warrior("Warrior 1", generateRandomNumber(100, 200), generateRandomNumber(10, 50), generateRandomNumber(1, 10));
+        Warrior warrior1 = new Warrior("Warrior 1", generateRandomNumber(100, 200), generateRandomNumber(10, 50), generateRandomNumber(1, 10));
 
-        Character wizzard1 = new Wizard("Wizzard 1", generateRandomNumber(50, 100), generateRandomNumber(10, 50), generateRandomNumber(1, 50));
+        Wizard wizzard1 = new Wizard("Wizzard 1", generateRandomNumber(50, 100), generateRandomNumber(10, 50), generateRandomNumber(1, 50));
 
-        
+
+        warrior1.attack(wizzard1);
+
+        wizzard1.attack(warrior1);
+
+        warrior1.attack(wizzard1);
+
+        wizzard1.attack(warrior1);
+
+
+
+
+
+
+
+
     }
 }
